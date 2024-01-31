@@ -83,13 +83,6 @@
 			path = Imagenes;
 			sourceTree = "<group>";
 		};
-		EB65BAAC2B6AD6DE00B62E26 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
-			sourceTree = "<group>";
-		};
 		EB7111832B6AA01500183360 = {
 			isa = PBXGroup;
 			children = (
@@ -113,7 +106,6 @@
 				EB71118F2B6AA01500183360 /* AppDelegate.swift */,
 				EB7111912B6AA01500183360 /* SceneDelegate.swift */,
 				EB7111932B6AA01500183360 /* ViewController.swift */,
-				EB65BAAC2B6AD6DE00B62E26 /* New Group */,
 				EB7111952B6AA01500183360 /* Main.storyboard */,
 				EB7111982B6AA01C00183360 /* Assets.xcassets */,
 				EB71119A2B6AA01C00183360 /* LaunchScreen.storyboard */,
