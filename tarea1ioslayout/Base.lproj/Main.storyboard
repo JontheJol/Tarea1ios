@@ -20,21 +20,30 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kirby" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2tF-fc-FY2">
-                                <rect key="frame" x="105" y="20" width="110" height="29"/>
+                                <rect key="frame" x="103" y="20" width="114" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.70604253110000004" blue="0.9966976676" alpha="0.54407112729999996" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="2tF-fc-FY2" secondAttribute="height" multiplier="80:21" id="ccr-mx-A6F"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="1" green="0.61520685829999999" blue="0.1596508421" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iKu-Kb-lFq">
-                                <rect key="frame" x="10" y="64" width="300" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" title="Credits"/>
+                                <rect key="frame" x="10" y="65" width="300" height="33"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="0.41614743100000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Credits">
+                                    <color key="titleColor" systemColor="labelColor"/>
+                                    <color key="titleShadowColor" red="0.82831159620000006" green="0.40934857489999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1iq-fV-4Qy" kind="presentation" id="05a-OK-8gB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ier-kH-ylC">
-                                <rect key="frame" x="120" y="114" width="80" height="80"/>
+                                <rect key="frame" x="120" y="118" width="80" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="2Te-8j-mr5"/>
                                     <constraint firstAttribute="width" secondItem="Ier-kH-ylC" secondAttribute="height" multiplier="1:1" id="RYz-ii-OI8"/>
@@ -42,30 +51,32 @@
                                 <state key="normal" title="Button" image="kirby.png"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LtU-25-8YQ">
-                                <rect key="frame" x="20" y="224" width="120" height="79.5"/>
+                                <rect key="frame" x="20" y="228" width="120" height="79.5"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="0.41614743098159507" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="120" id="aKb-BS-PGF"/>
                                     <constraint firstAttribute="width" secondItem="LtU-25-8YQ" secondAttribute="height" multiplier="3:2" constant="0.5" id="v2c-pL-vXz"/>
                                 </constraints>
+                                <color key="tintColor" white="0.0" alpha="0.95699530291411039" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button" image="smashLogo.png"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l7b-Tq-qIa">
-                                <rect key="frame" x="158" y="224" width="120" height="79.5"/>
+                                <rect key="frame" x="158" y="228" width="120" height="79.5"/>
                                 <state key="normal" title="Button" image="kirbybattleholder.jpeg"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YEg-jz-xli">
-                                <rect key="frame" x="20" y="333.5" width="120" height="80"/>
+                                <rect key="frame" x="20" y="337.5" width="120" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="YEg-jz-xli" secondAttribute="height" multiplier="3:2" constant="0.5" id="03x-Ox-rva"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="kirbySeriesHolder.jpeg"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bhe-s1-6Bh">
-                                <rect key="frame" x="100" y="453.5" width="120" height="79.5"/>
+                                <rect key="frame" x="100" y="457.5" width="120" height="79.5"/>
                                 <state key="normal" title="Button" image="kirbyhabilitiholder.jpeg"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t8p-Wz-5Ez">
-                                <rect key="frame" x="158" y="333.5" width="120" height="80"/>
+                                <rect key="frame" x="158" y="337.5" width="120" height="80"/>
                                 <state key="normal" title="Button" image="kirbyCafeHolder.jpeg"/>
                             </button>
                         </subviews>
@@ -108,6 +119,54 @@
             </objects>
             <point key="canvasLocation" x="13.125" y="103.52112676056338"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="BWP-a8-lMJ">
+            <objects>
+                <viewController id="1iq-fV-4Qy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NJv-Qc-j7D">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kirbyWallpaper.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="nXX-Zs-aEl">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Creditos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ju-bX-sgW">
+                                <rect key="frame" x="105.5" y="70" width="109" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="3Ju-bX-sgW" secondAttribute="height" multiplier="109:36" id="XC0-cc-DjY"/>
+                                    <constraint firstAttribute="width" constant="109" id="p8Z-oe-h16"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="nombre:Carlos JonathanCruz Briones  matrícula:22170090 grupo:5A materia:IOS  universidad:UTT." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t1t-zr-Ga9">
+                                <rect key="frame" x="60" y="210" width="200" height="128"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="0.46202789490000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="t1t-zr-Ga9" secondAttribute="height" multiplier="25:16" id="MnM-wC-zkv"/>
+                                    <constraint firstAttribute="width" constant="200" id="tgw-RG-UVJ"/>
+                                </constraints>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="rMp-Rd-0g3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3Ju-bX-sgW" firstAttribute="centerX" secondItem="NJv-Qc-j7D" secondAttribute="centerX" id="PTE-02-6cZ"/>
+                            <constraint firstItem="3Ju-bX-sgW" firstAttribute="top" secondItem="rMp-Rd-0g3" secondAttribute="top" constant="70" id="TC2-3q-dGU"/>
+                            <constraint firstItem="t1t-zr-Ga9" firstAttribute="centerY" secondItem="NJv-Qc-j7D" secondAttribute="centerY" id="bFW-Qf-ztV"/>
+                            <constraint firstItem="t1t-zr-Ga9" firstAttribute="centerX" secondItem="NJv-Qc-j7D" secondAttribute="centerX" id="x8o-3i-BJC"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BMg-CA-uSW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="908" y="104"/>
+        </scene>
     </scenes>
     <resources>
         <image name="kirby.png" width="1200" height="1200"/>
@@ -117,6 +176,9 @@
         <image name="kirbybattleholder.jpeg" width="1280" height="720"/>
         <image name="kirbyhabilitiholder.jpeg" width="1200" height="1000"/>
         <image name="smashLogo.png" width="3000" height="1700"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
