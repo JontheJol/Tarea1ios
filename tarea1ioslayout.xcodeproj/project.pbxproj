@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB65BA9E2B6AD37F00B62E26 /* kirbyWallpaper.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EB65BA912B6AD37D00B62E26 /* kirbyWallpaper.jpeg */; };
+		EB65BA9F2B6AD37F00B62E26 /* kirbyhabilitiesContent.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EB65BA922B6AD37E00B62E26 /* kirbyhabilitiesContent.jpeg */; };
+		EB65BAA02B6AD37F00B62E26 /* kirbybattlecontent.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EB65BA932B6AD37E00B62E26 /* kirbybattlecontent.jpeg */; };
+		EB65BAA12B6AD37F00B62E26 /* kirby.png in Resources */ = {isa = PBXBuildFile; fileRef = EB65BA942B6AD37E00B62E26 /* kirby.png */; };
+		EB65BAA22B6AD37F00B62E26 /* kirbyhabilitiholder.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EB65BA952B6AD37E00B62E26 /* kirbyhabilitiholder.jpeg */; };
+		EB65BAA32B6AD37F00B62E26 /* smashLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = EB65BA962B6AD37E00B62E26 /* smashLogo.png */; };
+		EB65BAA42B6AD37F00B62E26 /* kisrbysmash.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EB65BA972B6AD37E00B62E26 /* kisrbysmash.jpeg */; };
+		EB65BAA52B6AD37F00B62E26 /* kirbyCafeContent.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EB65BA982B6AD37E00B62E26 /* kirbyCafeContent.jpeg */; };
+		EB65BAA62B6AD37F00B62E26 /* kirbyabout.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EB65BA992B6AD37F00B62E26 /* kirbyabout.jpeg */; };
+		EB65BAA72B6AD37F00B62E26 /* kirbySeriesContent.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EB65BA9A2B6AD37F00B62E26 /* kirbySeriesContent.jpeg */; };
+		EB65BAA82B6AD37F00B62E26 /* kirbybattleholder.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EB65BA9B2B6AD37F00B62E26 /* kirbybattleholder.jpeg */; };
+		EB65BAA92B6AD37F00B62E26 /* kirbyCafeHolder.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EB65BA9C2B6AD37F00B62E26 /* kirbyCafeHolder.jpeg */; };
+		EB65BAAA2B6AD37F00B62E26 /* kirbySeriesHolder.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EB65BA9D2B6AD37F00B62E26 /* kirbySeriesHolder.jpeg */; };
 		EB7111902B6AA01500183360 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB71118F2B6AA01500183360 /* AppDelegate.swift */; };
 		EB7111922B6AA01500183360 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7111912B6AA01500183360 /* SceneDelegate.swift */; };
 		EB7111942B6AA01500183360 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7111932B6AA01500183360 /* ViewController.swift */; };
@@ -16,6 +29,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB65BA912B6AD37D00B62E26 /* kirbyWallpaper.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kirbyWallpaper.jpeg; sourceTree = "<group>"; };
+		EB65BA922B6AD37E00B62E26 /* kirbyhabilitiesContent.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kirbyhabilitiesContent.jpeg; sourceTree = "<group>"; };
+		EB65BA932B6AD37E00B62E26 /* kirbybattlecontent.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kirbybattlecontent.jpeg; sourceTree = "<group>"; };
+		EB65BA942B6AD37E00B62E26 /* kirby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kirby.png; sourceTree = "<group>"; };
+		EB65BA952B6AD37E00B62E26 /* kirbyhabilitiholder.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kirbyhabilitiholder.jpeg; sourceTree = "<group>"; };
+		EB65BA962B6AD37E00B62E26 /* smashLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smashLogo.png; sourceTree = "<group>"; };
+		EB65BA972B6AD37E00B62E26 /* kisrbysmash.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kisrbysmash.jpeg; sourceTree = "<group>"; };
+		EB65BA982B6AD37E00B62E26 /* kirbyCafeContent.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kirbyCafeContent.jpeg; sourceTree = "<group>"; };
+		EB65BA992B6AD37F00B62E26 /* kirbyabout.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kirbyabout.jpeg; sourceTree = "<group>"; };
+		EB65BA9A2B6AD37F00B62E26 /* kirbySeriesContent.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kirbySeriesContent.jpeg; sourceTree = "<group>"; };
+		EB65BA9B2B6AD37F00B62E26 /* kirbybattleholder.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kirbybattleholder.jpeg; sourceTree = "<group>"; };
+		EB65BA9C2B6AD37F00B62E26 /* kirbyCafeHolder.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kirbyCafeHolder.jpeg; sourceTree = "<group>"; };
+		EB65BA9D2B6AD37F00B62E26 /* kirbySeriesHolder.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kirbySeriesHolder.jpeg; sourceTree = "<group>"; };
 		EB71118C2B6AA01500183360 /* tarea1ioslayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tarea1ioslayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB71118F2B6AA01500183360 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB7111912B6AA01500183360 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +63,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB65BA902B6AD34100B62E26 /* Imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				EB65BA942B6AD37E00B62E26 /* kirby.png */,
+				EB65BA992B6AD37F00B62E26 /* kirbyabout.jpeg */,
+				EB65BA932B6AD37E00B62E26 /* kirbybattlecontent.jpeg */,
+				EB65BA9B2B6AD37F00B62E26 /* kirbybattleholder.jpeg */,
+				EB65BA982B6AD37E00B62E26 /* kirbyCafeContent.jpeg */,
+				EB65BA9C2B6AD37F00B62E26 /* kirbyCafeHolder.jpeg */,
+				EB65BA922B6AD37E00B62E26 /* kirbyhabilitiesContent.jpeg */,
+				EB65BA952B6AD37E00B62E26 /* kirbyhabilitiholder.jpeg */,
+				EB65BA9A2B6AD37F00B62E26 /* kirbySeriesContent.jpeg */,
+				EB65BA9D2B6AD37F00B62E26 /* kirbySeriesHolder.jpeg */,
+				EB65BA912B6AD37D00B62E26 /* kirbyWallpaper.jpeg */,
+				EB65BA972B6AD37E00B62E26 /* kisrbysmash.jpeg */,
+				EB65BA962B6AD37E00B62E26 /* smashLogo.png */,
+			);
+			path = Imagenes;
+			sourceTree = "<group>";
+		};
+		EB65BAAC2B6AD6DE00B62E26 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		EB7111832B6AA01500183360 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +109,11 @@
 		EB71118E2B6AA01500183360 /* tarea1ioslayout */ = {
 			isa = PBXGroup;
 			children = (
+				EB65BA902B6AD34100B62E26 /* Imagenes */,
 				EB71118F2B6AA01500183360 /* AppDelegate.swift */,
 				EB7111912B6AA01500183360 /* SceneDelegate.swift */,
 				EB7111932B6AA01500183360 /* ViewController.swift */,
+				EB65BAAC2B6AD6DE00B62E26 /* New Group */,
 				EB7111952B6AA01500183360 /* Main.storyboard */,
 				EB7111982B6AA01C00183360 /* Assets.xcassets */,
 				EB71119A2B6AA01C00183360 /* LaunchScreen.storyboard */,
@@ -124,9 +179,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB65BA9F2B6AD37F00B62E26 /* kirbyhabilitiesContent.jpeg in Resources */,
+				EB65BAA22B6AD37F00B62E26 /* kirbyhabilitiholder.jpeg in Resources */,
+				EB65BAA42B6AD37F00B62E26 /* kisrbysmash.jpeg in Resources */,
+				EB65BA9E2B6AD37F00B62E26 /* kirbyWallpaper.jpeg in Resources */,
+				EB65BAAA2B6AD37F00B62E26 /* kirbySeriesHolder.jpeg in Resources */,
+				EB65BAA92B6AD37F00B62E26 /* kirbyCafeHolder.jpeg in Resources */,
+				EB65BAA12B6AD37F00B62E26 /* kirby.png in Resources */,
+				EB65BAA52B6AD37F00B62E26 /* kirbyCafeContent.jpeg in Resources */,
 				EB71119C2B6AA01C00183360 /* LaunchScreen.storyboard in Resources */,
+				EB65BAA82B6AD37F00B62E26 /* kirbybattleholder.jpeg in Resources */,
+				EB65BAA62B6AD37F00B62E26 /* kirbyabout.jpeg in Resources */,
+				EB65BAA02B6AD37F00B62E26 /* kirbybattlecontent.jpeg in Resources */,
 				EB7111992B6AA01C00183360 /* Assets.xcassets in Resources */,
+				EB65BAA32B6AD37F00B62E26 /* smashLogo.png in Resources */,
 				EB7111972B6AA01500183360 /* Main.storyboard in Resources */,
+				EB65BAA72B6AD37F00B62E26 /* kirbySeriesContent.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
