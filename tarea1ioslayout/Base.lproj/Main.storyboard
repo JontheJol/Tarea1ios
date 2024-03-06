@@ -21,7 +21,7 @@
                                 <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bienvenido" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2tF-fc-FY2">
-                                <rect key="frame" x="95.5" y="35" width="129.5" height="34"/>
+                                <rect key="frame" x="95.5" y="35" width="129" height="34"/>
                                 <color key="backgroundColor" red="1" green="0.70604253110000004" blue="0.9966976676" alpha="0.54407112729999996" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="2tF-fc-FY2" secondAttribute="height" multiplier="80:21" id="ccr-mx-A6F"/>
@@ -33,7 +33,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iKu-Kb-lFq">
                                 <rect key="frame" x="10" y="84" width="300" height="33.5"/>
-                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="0.41614743100000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.87058823529411766" green="0.32156862745098036" blue="0.19215686274509802" alpha="0.41999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Credits">
                                     <color key="titleColor" systemColor="labelColor"/>
@@ -50,6 +50,9 @@
                                     <constraint firstAttribute="width" secondItem="Ier-kH-ylC" secondAttribute="height" multiplier="1:1" id="RYz-ii-OI8"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="kirby.png"/>
+                                <connections>
+                                    <segue destination="wkd-Ei-9Zc" kind="presentation" id="3Ig-fZ-xG4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LtU-25-8YQ">
                                 <rect key="frame" x="20" y="231.5" width="120" height="79.5"/>
@@ -60,6 +63,9 @@
                                 </constraints>
                                 <color key="tintColor" white="0.0" alpha="0.95699530291411039" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button" image="smashLogo.png"/>
+                                <connections>
+                                    <segue destination="OVD-Hp-Y48" kind="presentation" id="Lj5-BD-iTo"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l7b-Tq-qIa">
                                 <rect key="frame" x="158" y="231.5" width="120" height="79.5"/>
@@ -67,6 +73,9 @@
                                     <constraint firstAttribute="width" secondItem="l7b-Tq-qIa" secondAttribute="height" multiplier="3:2" constant="0.5" id="lEr-8D-PJF"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="kirbybattleholder.jpeg"/>
+                                <connections>
+                                    <segue destination="FgU-pp-AF7" kind="presentation" id="Z8t-cb-CYw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YEg-jz-xli">
                                 <rect key="frame" x="20" y="341" width="120" height="80"/>
@@ -74,6 +83,9 @@
                                     <constraint firstAttribute="width" secondItem="YEg-jz-xli" secondAttribute="height" multiplier="3:2" constant="0.5" id="03x-Ox-rva"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="kirbySeriesHolder.jpeg"/>
+                                <connections>
+                                    <segue destination="ha5-O4-gsV" kind="presentation" id="KSf-eF-wtf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bhe-s1-6Bh">
                                 <rect key="frame" x="100" y="461" width="120" height="79.5"/>
@@ -81,6 +93,9 @@
                                     <constraint firstAttribute="width" secondItem="bhe-s1-6Bh" secondAttribute="height" multiplier="3:2" constant="0.5" id="qGH-dd-IBF"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="kirbyhabilitiholder.jpeg"/>
+                                <connections>
+                                    <segue destination="ebY-2f-prB" kind="presentation" id="ONn-jR-9yw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t8p-Wz-5Ez">
                                 <rect key="frame" x="158" y="341" width="120" height="80"/>
@@ -88,6 +103,9 @@
                                     <constraint firstAttribute="width" secondItem="t8p-Wz-5Ez" secondAttribute="height" multiplier="3:2" constant="0.5" id="yNx-1F-URf"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="kirbyCafeHolder.jpeg"/>
+                                <connections>
+                                    <segue destination="pXG-sd-ckC" kind="presentation" id="LQv-j4-vrA"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kirby" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lGp-RP-zZO">
                                 <rect key="frame" x="138" y="202" width="44" height="28.5"/>
@@ -207,21 +225,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kirbyWallpaper.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="nXX-Zs-aEl">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kirbyWallpaper.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="nXX-Zs-aEl">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Creditos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ju-bX-sgW">
-                                <rect key="frame" x="105.5" y="70" width="109" height="36"/>
+                                <rect key="frame" x="98" y="70" width="124" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="3Ju-bX-sgW" secondAttribute="height" multiplier="109:36" id="XC0-cc-DjY"/>
-                                    <constraint firstAttribute="width" constant="109" id="p8Z-oe-h16"/>
+                                    <constraint firstAttribute="width" constant="124" id="wpC-Vr-uDu"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="nombre:Carlos JonathanCruz Briones  matrícula:22170090 grupo:5A materia:IOS  universidad:UTT." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t1t-zr-Ga9">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Nombre:Carlos JonathanCruz Briones  matrícula:22170090 grupo:5A materia:IOS  universidad:UTT." textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t1t-zr-Ga9">
                                 <rect key="frame" x="60" y="210" width="200" height="128"/>
                                 <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="0.46202789490000001" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -236,25 +253,353 @@
                         <viewLayoutGuide key="safeArea" id="rMp-Rd-0g3"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="rMp-Rd-0g3" firstAttribute="trailing" secondItem="nXX-Zs-aEl" secondAttribute="trailing" id="Dzt-CN-zTA"/>
                             <constraint firstItem="3Ju-bX-sgW" firstAttribute="centerX" secondItem="NJv-Qc-j7D" secondAttribute="centerX" id="PTE-02-6cZ"/>
+                            <constraint firstItem="rMp-Rd-0g3" firstAttribute="bottom" secondItem="nXX-Zs-aEl" secondAttribute="bottom" id="T81-ig-dTZ"/>
                             <constraint firstItem="3Ju-bX-sgW" firstAttribute="top" secondItem="rMp-Rd-0g3" secondAttribute="top" constant="70" id="TC2-3q-dGU"/>
                             <constraint firstItem="t1t-zr-Ga9" firstAttribute="centerY" secondItem="NJv-Qc-j7D" secondAttribute="centerY" id="bFW-Qf-ztV"/>
+                            <constraint firstItem="nXX-Zs-aEl" firstAttribute="top" secondItem="rMp-Rd-0g3" secondAttribute="top" id="ibi-6I-8bg"/>
+                            <constraint firstItem="nXX-Zs-aEl" firstAttribute="leading" secondItem="rMp-Rd-0g3" secondAttribute="leading" id="vbf-AM-Y2I"/>
                             <constraint firstItem="t1t-zr-Ga9" firstAttribute="centerX" secondItem="NJv-Qc-j7D" secondAttribute="centerX" id="x8o-3i-BJC"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BMg-CA-uSW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="908" y="104"/>
+            <point key="canvasLocation" x="774" y="-624"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cIf-OE-I26">
+            <objects>
+                <viewController id="wkd-Ei-9Zc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="biU-dI-I0M">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kirbyWallpaper.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="HEv-J0-nJ9">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="kirbyabout.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="EWk-1a-IHe">
+                                <rect key="frame" x="35" y="151" width="250" height="246"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="cLs-E2-dCl"/>
+                                    <constraint firstAttribute="width" secondItem="EWk-1a-IHe" secondAttribute="height" multiplier="65:64" id="gmB-9S-aNC"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Kirby es un personaje moivado por la gula,su motivacion se basa exclusivamente en comer . " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xun-or-avG">
+                                <rect key="frame" x="57.5" y="422" width="205" height="96"/>
+                                <color key="backgroundColor" red="0.87058823529411766" green="0.32156862745098036" blue="0.19215686274509802" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="uVF-ZM-9NE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="HEv-J0-nJ9" firstAttribute="leading" secondItem="uVF-ZM-9NE" secondAttribute="leading" id="2fz-Lb-zD7"/>
+                            <constraint firstItem="xun-or-avG" firstAttribute="top" secondItem="EWk-1a-IHe" secondAttribute="bottom" constant="25" id="CTe-a0-xsu"/>
+                            <constraint firstItem="xun-or-avG" firstAttribute="centerX" secondItem="biU-dI-I0M" secondAttribute="centerX" id="Muj-xp-rzf"/>
+                            <constraint firstItem="EWk-1a-IHe" firstAttribute="centerY" secondItem="biU-dI-I0M" secondAttribute="centerY" id="RhY-AV-0bt"/>
+                            <constraint firstItem="uVF-ZM-9NE" firstAttribute="trailing" secondItem="HEv-J0-nJ9" secondAttribute="trailing" id="ccc-LU-Ej3"/>
+                            <constraint firstItem="HEv-J0-nJ9" firstAttribute="top" secondItem="uVF-ZM-9NE" secondAttribute="top" id="jBv-Cw-jVf"/>
+                            <constraint firstItem="uVF-ZM-9NE" firstAttribute="bottom" secondItem="HEv-J0-nJ9" secondAttribute="bottom" id="kS1-2u-4Zi"/>
+                            <constraint firstItem="uVF-ZM-9NE" firstAttribute="bottom" secondItem="xun-or-avG" secondAttribute="bottom" constant="30" id="nYn-V2-apU"/>
+                            <constraint firstItem="EWk-1a-IHe" firstAttribute="centerX" secondItem="biU-dI-I0M" secondAttribute="centerX" id="r0R-Dr-RvQ"/>
+                            <constraint firstItem="xun-or-avG" firstAttribute="width" secondItem="EWk-1a-IHe" secondAttribute="height" multiplier="5:6" id="sMZ-m4-A7o"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P8A-6d-zTT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10.144927536231885" y="-624.77678571428567"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="UYc-o2-9sq">
+            <objects>
+                <viewController id="q0R-b7-OXe" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UDz-do-MP3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="kirbyWallpaper.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="4BI-Px-EXJ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="kirbyabout.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="a8v-Gl-7kD">
+                                <rect key="frame" x="35" y="143" width="250" height="246"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="a8v-Gl-7kD" secondAttribute="height" multiplier="65:64" id="Vi0-hI-wPR"/>
+                                    <constraint firstAttribute="width" constant="250" id="aFs-uV-yf2"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kirby" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eGE-lB-Z4Y">
+                                <rect key="frame" x="117.5" y="60" width="85" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="85" id="AIo-O9-h5Z"/>
+                                    <constraint firstAttribute="width" secondItem="eGE-lB-Z4Y" secondAttribute="height" multiplier="85:42" id="dzc-wI-cwO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1jl-yE-dVr">
+                                <rect key="frame" x="23" y="411" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="d3L-Hd-vlO"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="a8v-Gl-7kD" firstAttribute="top" secondItem="eGE-lB-Z4Y" secondAttribute="bottom" constant="41" id="BKh-u9-5AJ"/>
+                            <constraint firstItem="a8v-Gl-7kD" firstAttribute="centerX" secondItem="UDz-do-MP3" secondAttribute="centerX" id="FYe-Iu-UGg"/>
+                            <constraint firstItem="4BI-Px-EXJ" firstAttribute="width" secondItem="UDz-do-MP3" secondAttribute="width" id="KDj-cS-4J3"/>
+                            <constraint firstItem="a8v-Gl-7kD" firstAttribute="centerY" secondItem="UDz-do-MP3" secondAttribute="centerY" id="Sau-Zh-oTn"/>
+                            <constraint firstItem="eGE-lB-Z4Y" firstAttribute="top" secondItem="d3L-Hd-vlO" secondAttribute="top" constant="40" id="Ts5-ei-rc3"/>
+                            <constraint firstItem="eGE-lB-Z4Y" firstAttribute="centerX" secondItem="UDz-do-MP3" secondAttribute="centerX" id="k61-M2-345"/>
+                            <constraint firstItem="4BI-Px-EXJ" firstAttribute="height" secondItem="UDz-do-MP3" secondAttribute="height" multiplier="1.0365" id="teX-eJ-QWV"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qaw-4I-Qfr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="21.25" y="-614.29577464788736"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="AVT-Po-qOW">
+            <objects>
+                <viewController id="OVD-Hp-Y48" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FwX-V3-LqH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kirbyWallpaper.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Xeg-mE-vpj">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kisrbysmash.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="IWk-7Q-SPJ">
+                                <rect key="frame" x="10" y="10" width="300" height="274"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="Kirby tambien teien participacion como  el heroe principal de las franquisia mas impprtante de los videojuegos,Smash bros" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eCI-fl-jEn">
+                                <rect key="frame" x="9.5" y="372" width="301" height="128"/>
+                                <color key="backgroundColor" red="0.87058823529999996" green="0.32156862749999998" blue="0.19215686269999999" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Kfl-d7-cse"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Kfl-d7-cse" firstAttribute="bottom" secondItem="Xeg-mE-vpj" secondAttribute="bottom" id="2qc-rr-Tnm"/>
+                            <constraint firstItem="Xeg-mE-vpj" firstAttribute="top" secondItem="Kfl-d7-cse" secondAttribute="top" id="4KV-dO-4It"/>
+                            <constraint firstItem="Xeg-mE-vpj" firstAttribute="leading" secondItem="Kfl-d7-cse" secondAttribute="leading" id="7Na-6o-AQK"/>
+                            <constraint firstItem="IWk-7Q-SPJ" firstAttribute="top" secondItem="Kfl-d7-cse" secondAttribute="top" constant="10" id="7qu-pA-vTF"/>
+                            <constraint firstItem="eCI-fl-jEn" firstAttribute="width" secondItem="IWk-7Q-SPJ" secondAttribute="width" constant="1" id="ShB-rh-LEr"/>
+                            <constraint firstItem="Kfl-d7-cse" firstAttribute="trailing" secondItem="Xeg-mE-vpj" secondAttribute="trailing" id="bTw-z0-rmx"/>
+                            <constraint firstItem="IWk-7Q-SPJ" firstAttribute="leading" secondItem="Kfl-d7-cse" secondAttribute="leading" constant="10" id="ck5-Q5-vmJ"/>
+                            <constraint firstItem="IWk-7Q-SPJ" firstAttribute="height" secondItem="FwX-V3-LqH" secondAttribute="height" multiplier="0.5" id="dPl-P0-SFH"/>
+                            <constraint firstItem="eCI-fl-jEn" firstAttribute="centerX" secondItem="IWk-7Q-SPJ" secondAttribute="centerX" id="guA-aR-T5M"/>
+                            <constraint firstAttribute="trailing" secondItem="IWk-7Q-SPJ" secondAttribute="trailing" constant="10" id="uqd-cM-3kn"/>
+                            <constraint firstItem="eCI-fl-jEn" firstAttribute="top" secondItem="IWk-7Q-SPJ" secondAttribute="bottom" constant="8" id="x4W-qr-No2"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FjF-KQ-VO6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-759.375" y="-624.29577464788736"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="P4d-2I-kOr">
+            <objects>
+                <viewController id="ha5-O4-gsV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hfG-II-asv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kirbyWallpaper.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="kxV-J8-aZ3">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kirbySeriesContent.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="7nO-vm-KcG">
+                                <rect key="frame" x="10" y="10" width="300" height="274"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="Kirby tambien teien participacion como  el heroe principal de las franquisia mas impprtante de los videojuegos,Smash bros" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sbu-tw-QMm">
+                                <rect key="frame" x="9.5" y="301" width="301" height="128"/>
+                                <color key="backgroundColor" red="0.87058823529999996" green="0.32156862749999998" blue="0.19215686269999999" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="C0z-KO-7ZT"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="C0z-KO-7ZT" firstAttribute="bottom" secondItem="kxV-J8-aZ3" secondAttribute="bottom" id="5SK-ls-aEc"/>
+                            <constraint firstItem="7nO-vm-KcG" firstAttribute="leading" secondItem="C0z-KO-7ZT" secondAttribute="leading" constant="10" id="Dzy-db-8lP"/>
+                            <constraint firstItem="kxV-J8-aZ3" firstAttribute="top" secondItem="C0z-KO-7ZT" secondAttribute="top" id="Jgw-lp-6Ss"/>
+                            <constraint firstItem="sbu-tw-QMm" firstAttribute="centerX" secondItem="7nO-vm-KcG" secondAttribute="centerX" id="RFK-k6-mGP"/>
+                            <constraint firstAttribute="trailing" secondItem="7nO-vm-KcG" secondAttribute="trailing" constant="10" id="UtP-3l-2zv"/>
+                            <constraint firstItem="7nO-vm-KcG" firstAttribute="top" secondItem="C0z-KO-7ZT" secondAttribute="top" constant="10" id="XhL-RD-rOT"/>
+                            <constraint firstItem="kxV-J8-aZ3" firstAttribute="leading" secondItem="C0z-KO-7ZT" secondAttribute="leading" id="f5G-9x-3j8"/>
+                            <constraint firstItem="sbu-tw-QMm" firstAttribute="top" secondItem="7nO-vm-KcG" secondAttribute="bottom" constant="8" id="mON-Mo-dJW"/>
+                            <constraint firstItem="sbu-tw-QMm" firstAttribute="width" secondItem="7nO-vm-KcG" secondAttribute="width" constant="1" id="on6-ka-YUI"/>
+                            <constraint firstItem="C0z-KO-7ZT" firstAttribute="trailing" secondItem="kxV-J8-aZ3" secondAttribute="trailing" id="rdO-a9-X2o"/>
+                            <constraint firstItem="7nO-vm-KcG" firstAttribute="height" secondItem="hfG-II-asv" secondAttribute="height" multiplier="0.5" id="vgd-SJ-584"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qtZ-pa-pQN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-825" y="62"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ewg-7k-Y9Y">
+            <objects>
+                <viewController id="ebY-2f-prB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kWr-Tb-qbO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kirbyWallpaper.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="lhc-0y-lpQ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kirbyhabilitiesContent.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="mu2-Gp-IrE">
+                                <rect key="frame" x="10" y="10" width="300" height="246.5"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jYU-ql-UrD">
+                                <rect key="frame" x="9.5" y="329" width="301" height="128"/>
+                                <color key="backgroundColor" red="0.87058823529999996" green="0.32156862749999998" blue="0.19215686269999999" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Nuestro personaje tambein tiene distinatas habilidades durante los diferentes Juegos,Habilidades que pptine gracias a comerce a sus enemigos</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jcm-y2-2fP"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mu2-Gp-IrE" firstAttribute="leading" secondItem="jcm-y2-2fP" secondAttribute="leading" constant="10" id="32P-mP-ta0"/>
+                            <constraint firstItem="jYU-ql-UrD" firstAttribute="top" secondItem="mu2-Gp-IrE" secondAttribute="bottom" constant="8" id="3tw-9t-muK"/>
+                            <constraint firstItem="jcm-y2-2fP" firstAttribute="bottom" secondItem="lhc-0y-lpQ" secondAttribute="bottom" id="7Y5-G8-9SD"/>
+                            <constraint firstItem="jYU-ql-UrD" firstAttribute="centerX" secondItem="mu2-Gp-IrE" secondAttribute="centerX" id="KLF-ML-pUc"/>
+                            <constraint firstItem="mu2-Gp-IrE" firstAttribute="top" secondItem="jcm-y2-2fP" secondAttribute="top" constant="10" id="MjY-zm-ixN"/>
+                            <constraint firstItem="jcm-y2-2fP" firstAttribute="trailing" secondItem="lhc-0y-lpQ" secondAttribute="trailing" id="Yxf-cl-AIe"/>
+                            <constraint firstItem="jYU-ql-UrD" firstAttribute="width" secondItem="mu2-Gp-IrE" secondAttribute="width" constant="1" id="ent-pR-0uk"/>
+                            <constraint firstItem="lhc-0y-lpQ" firstAttribute="top" secondItem="jcm-y2-2fP" secondAttribute="top" id="lze-YP-hCB"/>
+                            <constraint firstItem="mu2-Gp-IrE" firstAttribute="height" secondItem="kWr-Tb-qbO" secondAttribute="height" multiplier="0.45" id="mFE-fG-hqz"/>
+                            <constraint firstItem="lhc-0y-lpQ" firstAttribute="leading" secondItem="jcm-y2-2fP" secondAttribute="leading" id="q4j-gf-Hhy"/>
+                            <constraint firstAttribute="trailing" secondItem="mu2-Gp-IrE" secondAttribute="trailing" constant="10" id="vFS-vv-ARr"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BVt-Xo-23d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-825" y="762"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="AYi-nB-hwL">
+            <objects>
+                <viewController id="pXG-sd-ckC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="i8f-Ot-I6K">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kirbyWallpaper.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="uVx-6W-l89">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kirbyCafeContent.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="sq5-Hv-okp">
+                                <rect key="frame" x="10" y="10" width="300" height="246.5"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zgn-j6-Cyn">
+                                <rect key="frame" x="9.5" y="329" width="301" height="128"/>
+                                <color key="backgroundColor" red="0.87058823529999996" green="0.32156862749999998" blue="0.19215686269999999" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Gracias a su popularidad la empreza responsable de kirby acedio a abrir un restaurante en Tokyo ,restaurante altamente popular en la nacion </string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cKO-Hb-hHi"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="sq5-Hv-okp" firstAttribute="leading" secondItem="cKO-Hb-hHi" secondAttribute="leading" constant="10" id="8bY-Ac-sg2"/>
+                            <constraint firstItem="cKO-Hb-hHi" firstAttribute="bottom" secondItem="uVx-6W-l89" secondAttribute="bottom" id="EdM-Dm-w4d"/>
+                            <constraint firstItem="uVx-6W-l89" firstAttribute="leading" secondItem="cKO-Hb-hHi" secondAttribute="leading" id="Ghv-QK-Eaz"/>
+                            <constraint firstItem="uVx-6W-l89" firstAttribute="top" secondItem="cKO-Hb-hHi" secondAttribute="top" id="Mgm-LX-AFI"/>
+                            <constraint firstItem="zgn-j6-Cyn" firstAttribute="centerX" secondItem="sq5-Hv-okp" secondAttribute="centerX" id="VNb-it-xhe"/>
+                            <constraint firstAttribute="trailing" secondItem="sq5-Hv-okp" secondAttribute="trailing" constant="10" id="ZuC-Fd-At0"/>
+                            <constraint firstItem="zgn-j6-Cyn" firstAttribute="width" secondItem="sq5-Hv-okp" secondAttribute="width" constant="1" id="hzI-ll-ldD"/>
+                            <constraint firstItem="zgn-j6-Cyn" firstAttribute="top" secondItem="sq5-Hv-okp" secondAttribute="bottom" constant="8" id="mVQ-tM-jg3"/>
+                            <constraint firstItem="sq5-Hv-okp" firstAttribute="top" secondItem="cKO-Hb-hHi" secondAttribute="top" constant="10" id="rf3-na-Rda"/>
+                            <constraint firstItem="cKO-Hb-hHi" firstAttribute="trailing" secondItem="uVx-6W-l89" secondAttribute="trailing" id="uMI-h8-khx"/>
+                            <constraint firstItem="sq5-Hv-okp" firstAttribute="height" secondItem="i8f-Ot-I6K" secondAttribute="height" multiplier="0.45" id="zzN-O2-wAE"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nsa-Gw-2ZL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9" y="820"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jRn-Tz-JAy">
+            <objects>
+                <viewController id="FgU-pp-AF7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LOO-tK-Agn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kirbyWallpaper.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="EbE-PQ-mQ7">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kirbybattlecontent.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="jtZ-M1-x7M">
+                                <rect key="frame" x="10" y="10" width="300" height="246.5"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="Kirby tambien tine una gran cantidad de Spin-Off en los cuales se explora con el mundo de kirby con otras modalidades de juego" textAlignment="center" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ig6-mK-nDw">
+                                <rect key="frame" x="9.5" y="329" width="301" height="128"/>
+                                <color key="backgroundColor" red="0.87058823529999996" green="0.32156862749999998" blue="0.19215686269999999" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ver-A9-rTt"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jtZ-M1-x7M" firstAttribute="height" secondItem="LOO-tK-Agn" secondAttribute="height" multiplier="0.45" id="3nA-nw-KTu"/>
+                            <constraint firstItem="jtZ-M1-x7M" firstAttribute="leading" secondItem="Ver-A9-rTt" secondAttribute="leading" constant="10" id="7ZT-mX-KA3"/>
+                            <constraint firstItem="Ver-A9-rTt" firstAttribute="trailing" secondItem="EbE-PQ-mQ7" secondAttribute="trailing" id="7zp-Fy-jtL"/>
+                            <constraint firstItem="Ig6-mK-nDw" firstAttribute="centerX" secondItem="jtZ-M1-x7M" secondAttribute="centerX" id="8sF-Xb-NuZ"/>
+                            <constraint firstAttribute="trailing" secondItem="jtZ-M1-x7M" secondAttribute="trailing" constant="10" id="CxV-9C-OlL"/>
+                            <constraint firstItem="jtZ-M1-x7M" firstAttribute="top" secondItem="Ver-A9-rTt" secondAttribute="top" constant="10" id="EDo-0i-WgL"/>
+                            <constraint firstItem="EbE-PQ-mQ7" firstAttribute="leading" secondItem="Ver-A9-rTt" secondAttribute="leading" id="Huy-kQ-NQa"/>
+                            <constraint firstItem="Ig6-mK-nDw" firstAttribute="top" secondItem="jtZ-M1-x7M" secondAttribute="bottom" constant="8" id="Kqy-nF-Bix"/>
+                            <constraint firstItem="Ig6-mK-nDw" firstAttribute="width" secondItem="jtZ-M1-x7M" secondAttribute="width" constant="1" id="Lsf-Hd-kOf"/>
+                            <constraint firstItem="Ver-A9-rTt" firstAttribute="bottom" secondItem="EbE-PQ-mQ7" secondAttribute="bottom" id="iL6-Hb-UTC"/>
+                            <constraint firstItem="EbE-PQ-mQ7" firstAttribute="top" secondItem="Ver-A9-rTt" secondAttribute="top" id="zcH-85-TIC"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L5e-oR-MSp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="773" y="433"/>
         </scene>
     </scenes>
     <resources>
         <image name="kirby.png" width="1200" height="1200"/>
+        <image name="kirbyCafeContent.jpeg" width="630" height="420"/>
         <image name="kirbyCafeHolder.jpeg" width="249.1199951171875" height="138.24000549316406"/>
+        <image name="kirbySeriesContent.jpeg" width="1440" height="1080"/>
         <image name="kirbySeriesHolder.jpeg" width="324" height="309"/>
         <image name="kirbyWallpaper.jpeg" width="736" height="1347"/>
+        <image name="kirbyabout.jpeg" width="3840" height="3840"/>
+        <image name="kirbybattlecontent.jpeg" width="240" height="240"/>
         <image name="kirbybattleholder.jpeg" width="1280" height="720"/>
+        <image name="kirbyhabilitiesContent.jpeg" width="440.83920288085938" height="290"/>
         <image name="kirbyhabilitiholder.jpeg" width="1200" height="1000"/>
+        <image name="kisrbysmash.jpeg" width="686" height="386"/>
         <image name="smashLogo.png" width="3000" height="1700"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
